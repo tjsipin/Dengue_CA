@@ -19,9 +19,12 @@ joinTrapID = input_data %>%
   full_join(trapID_dict)
 
 # Obtain mosPerTrapNight for abundance analysis
-abund = joinTrapID %>% 
+abund_NA = joinTrapID %>% 
   mutate(mosPerTrapNight = females_mixed/trap_nights) %>% 
   ungroup()
+
+abund_NA_zero = abund_NA %>% 
+  mutate(mosPerTrapNight = ifelse(is.na(mosPerTrapNight), 0, mosPerTrapNight)) 
 
 # Create presence/absence points data frame
 presence_absence_df = joinTrapID %>% 
@@ -35,7 +38,7 @@ presence_df = presence_absence_df %>%
 
 # boxplot mosPerTrapNight by county
 ggplot(
-  abund, 
+  abund_NA_zero, 
   aes(
     x = log(mosPerTrapNight+1), 
     y = fct_reorder(calculated_county %>% as.factor(), log(mosPerTrapNight+ 1), median, na.rm = T, .desc = F)
@@ -47,7 +50,16 @@ ggplot(
   ylab("County") + 
   xlab("log(mosquitoes per trap night)")
 
+# plot mean mosPerTrapNight per year by county 
+ggplot(
+  abund_NA_zero %>% 
+    group_by(Year, calculated_county)
+) + 
+  geom_smooth(aes(x = Year, y = log(mosPerTrapNight + 1)), method= "lm") + 
+  facet_wrap(facets = "calculated_county")
 
-write_csv(abund, str_c(output_dir, "aedes_abund_mixedfemales.csv"))
+
+write_csv(abund_NA, str_c(output_dir, "aedes_abundNA_mixedfemales.csv"))
+write_csv(abund_NA_zero, str_c(output_dir, "aedes_abundNAzero_mixedfemales.csv"))
 write_csv(presence_absence_df, str_c(output_dir, "aedes_presenceAbsence_mixedfemales.csv"))
 write_csv(presence_df, str_c(output_dir, "aedes_presence_mixedfemales.csv"))
