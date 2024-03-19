@@ -1,0 +1,177 @@
+---
+title: "Pseudo-Absence_Aedes"
+author: "Samantha Sambado"
+date: "2024-02-27"
+output: html_document
+---
+
+
+#Pseudo-Absence layer for vector SDM
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+## packages
+library(ggplot2)
+library(tidyverse)
+library(janitor)
+library(lubridate)
+library(readr)
+library(ggmap)
+
+## raw data
+# both these files have more information than I need but could be useful for other analysis, so I recommend looking at these raw files
+
+# Aedes aegypti data from CalSurv "aedes_slim_mixed_females_v2.csv"
+aedes_aegypti_full <- read.csv("aedes_project/eda_data/aedes_slim_mixedfemales_v2.csv")
+
+# Culex quinquefasciatus from Lisa's CalSurv request "request.csv"
+lisa_calsurv_full <- read.csv("aedes_project/eda_data/request.csv")
+
+
+## make map of ca
+la <- get_map(location = "Los Angeles", zoom = 6)
+ca_small <- get_map(location = "California", zoom = 6)
+ca_big <- get_map(location = "California", zoom = 5)
+
+# ggmap(ca_smaller)
+# ggmap(ca_big)
+
+```
+
+
+Data cleaning and reformatting
+- as of 2024-02-27 need to include another northern culex species to encompass more of CA. Ideally this would have been Culex pipiens but not part of lisa's calsurv data
+
+```{r}
+# for the pseudo-absence file I only need a sliver of information but should go back to make more complete dataframe for further analysis
+unique(lisa_calsurv_full$sex)
+
+###### Lisa's CalSurv data -- only need Culex quinquefasciatus 
+
+# do the date stuff
+lisa_calsurv_full$collection_date <- substr(lisa_calsurv_full$collection_date,1,10 )
+lisa_calsurv_full$collection_date <- lubridate::ymd(lisa_calsurv_full$collection_date)
+lisa_calsurv_full$month <- substr(lisa_calsurv_full$collection_date, 6,7)
+lisa_calsurv_full$year <- substr(lisa_calsurv_full$collection_date, 1,4)
+
+# format the rest of it
+lisa_surv_reformat <-  lisa_calsurv_full %>% 
+  filter(species == "Cx quinquefasciatus" | species == "Cx tarsalis" &
+           sex == "Females - Mixed" | 
+           sex == "Females - Bloodfed" |
+           sex == "Females - Unfed" | 
+           sex == "Females - Gravid") %>% 
+  rename(count = num_count) %>% 
+  mutate(presencestatus = case_when(count >=1 ~ 1, # present
+                                    count <1 ~ 0)) %>% # absent
+  dplyr::select(longitude, latitude, year, month, presencestatus)
+
+
+## now only choose unique location, year, month
+lisa_surv_presencestatus_location_year_month <- lisa_surv_reformat %>% 
+ group_by(longitude, latitude, year, month, presencestatus) %>% 
+  unique() %>% 
+  rename(culex_presence = presencestatus) # now both c tarsalis and quinquefaciatus
+
+lisa_surv_presencestatus_location_year_month$month <- as.numeric(lisa_surv_presencestatus_location_year_month$month)
+#write.csv(lisa_surv_presencestatus_location_year_month, file = "lisa_surv_presencestatus_location_year_month.csv")
+
+
+
+### Now use Aedes aegypti from Andy which is also CalSurv
+andy_aedes_format <- aedes_aegypti_full %>%
+  rename(count = females_mixed) %>% 
+  mutate(presencestatus = case_when(count >=1 ~ 1, # present
+                                    TRUE ~ 0)) %>% # absent
+  dplyr::select(longitude, latitude, year, month, presencestatus)
+  
+ 
+andy_aedes_presencestatus_location_year_month  <- andy_aedes_format%>% 
+ group_by(longitude, latitude, year, month, presencestatus) %>% 
+  unique() %>% 
+  rename(aedes_presence = presencestatus)
+
+#write.csv(andy_aedes_presencestatus_location_year_month, file = "andy_aedes_presencestatus_location_year_month.csv")
+
+```
+
+
+Combine Lisa's Cx quinq and Andy's Aedes and make column of pseudo levels
+
+```{r}
+combined_presencestatus <- merge(andy_aedes_presencestatus_location_year_month,
+                           lisa_surv_presencestatus_location_year_month,
+      by = c("latitude", "longitude", "month", "year") )  %>% 
+  mutate(pseudostatus = case_when(
+    aedes_presence == "0" & culex_presence == "1" ~ "OnlyQuinqs",
+         aedes_presence == "1" & culex_presence == "1" ~ "BothPresent",
+          aedes_presence == "0" & culex_presence == "0" ~ "BothAbsent",
+          aedes_presence == "1" & culex_presence == "0" ~ "OnlyAedes",
+         TRUE ~ "other"))
+
+
+#write.csv(combined_presencestatus, file = "aedes_project/AedesCulex_presencestatus.csv") # changed this name to include C pipiens
+
+```
+
+Summary of combined dataset
+```{r}
+# how many pseudo-status do we have
+combined_presencestatus %>% 
+  group_by(pseudostatus) %>% 
+  tally()
+
+# how many locations
+combined_presencestatus %>% 
+  group_by(latitude, longitude) %>% 
+  tally()
+
+# date range
+min(combined_presencestatus$year)
+```
+
+Visualize the data
+```{r}
+
+## year
+ggmap(ca_small) + # la
+  geom_point(data = combined_presencestatus, aes(x = longitude, y = latitude, color = pseudostatus)) +
+  geom_point( alpha = .5) +
+  facet_wrap(~year) +
+  scale_color_manual(values = c( "#26456e", "#c53e01"))+
+  labs(x = "Longitude", y = "Latitude", color = "Presence Status") +
+  theme(strip.background = element_rect(fill = "grey90"),
+        strip.text = element_text(face = "bold", size = 8),
+        legend.position = "bottom",
+        axis.title = element_text(face = "bold", size = 10))
+
+
+## month
+ggmap(ca_small) + # la
+  geom_point(data = combined_presencestatus, aes(x = longitude, y = latitude, color = pseudostatus)) +
+  geom_point( alpha = .5) +
+  facet_wrap(~month) +
+  scale_color_manual(values = c( "#26456e", "#c53e01"))+
+  labs(x = "Longitude", y = "Latitude", color = "Presence Status") +
+  theme(strip.background = element_rect(fill = "grey90"),
+        strip.text = element_text(face = "bold", size = 8),
+        legend.position = "bottom",
+        axis.title = element_text(face = "bold", size = 10))
+
+## just pseudostaus of OnlyQuinqs
+ggmap(la) + # ca_small
+  geom_point(data = combined_presencestatus[combined_presencestatus$pseudostatus == "OnlyQuinqs",], aes(x = longitude, y = latitude, color = pseudostatus)) +
+  geom_point( alpha = .5) +
+  facet_wrap(~year) +
+  scale_color_manual(values = "#c53e01")+
+  labs(x = "Longitude", y = "Latitude", color = "Presence Status") +
+  theme(strip.background = element_rect(fill = "grey90"),
+        strip.text = element_text(face = "bold", size = 8),
+        legend.position = "bottom",
+        axis.title = element_text(face = "bold", size = 10))
+
+
+```
+
