@@ -1,0 +1,194 @@
+/home/tjsipin
+forge.eri.ucsb.edu
+Wed Mar 13 05:24:20 PM PDT 2024
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 17:24:49 2024
+lat.long.thin.count
+39 
+20 
+[1] "Maximum number of records after thinning: 39"
+[1] "Number of data.frames with max records: 20"
+[1] "Writing new *.csv files"
+
+lat.long.thin.count
+50 
+20 
+[1] "Maximum number of records after thinning: 50"
+[1] "Number of data.frames with max records: 20"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/1/thinned/1_pf_thin1.csv"
+[1] "Writing new *.csv files"
+
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/1/thinned/1_pf_thin2.csv"
+lat.long.thin.count
+48 
+20 
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/1/thinned/1_pf_thin3.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/2/thinned/2_pf_thin1.csv"
+[1] "Maximum number of records after thinning: 48"
+[1] "Number of data.frames with max records: 20"
+[1] "Writing new *.csv files"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/1/thinned/1_pf_thin4.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/2/thinned/2_pf_thin2.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/1/thinned/1_pf_thin5.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/2/thinned/2_pf_thin3.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/3/thinned/3_pf_thin1.csv"
+
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/2/thinned/2_pf_thin4.csv"
+lat.long.thin.count
+394 
+ 20 
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/3/thinned/3_pf_thin2.csv"
+[1] "1: occurrence partition"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/2/thinned/2_pf_thin5.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/3/thinned/3_pf_thin3.csv"
+[1] "Maximum number of records after thinning: 394"
+[1] "Number of data.frames with max records: 20"
+[1] "Writing new *.csv files"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/3/thinned/3_pf_thin4.csv"
+[1] "2: occurrence partition"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/4/thinned/4_pf_thin1.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/3/thinned/3_pf_thin5.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/4/thinned/4_pf_thin2.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/4/thinned/4_pf_thin3.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/4/thinned/4_pf_thin4.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/4/thinned/4_pf_thin5.csv"
+[1] "3: occurrence partition"
+[1] "4: occurrence partition"
+
+lat.long.thin.count
+237 
+ 20 
+[1] "Maximum number of records after thinning: 237"
+[1] "Number of data.frames with max records: 20"
+[1] "Writing new *.csv files"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/12/thinned/12_pf_thin1.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/12/thinned/12_pf_thin2.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/12/thinned/12_pf_thin3.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/12/thinned/12_pf_thin4.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/12/thinned/12_pf_thin5.csv"
+[1] "12: occurrence partition"
+
+lat.long.thin.count
+1045 
+  20 
+[1] "Maximum number of records after thinning: 1045"
+[1] "Number of data.frames with max records: 20"
+[1] "Writing new *.csv files"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/5/thinned/5_pf_thin1.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/5/thinned/5_pf_thin2.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/5/thinned/5_pf_thin3.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/5/thinned/5_pf_thin4.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/5/thinned/5_pf_thin5.csv"
+[1] "5: occurrence partition"
+[1] "3: calibration"
+[1] "3: block_layer"
+
+lat.long.thin.count
+1092 
+  20 
+[1] "Maximum number of records after thinning: 1092"
+[1] "Number of data.frames with max records: 20"
+[1] "Writing new *.csv files"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/11/thinned/11_pf_thin1.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/11/thinned/11_pf_thin2.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/11/thinned/11_pf_thin3.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/11/thinned/11_pf_thin4.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/11/thinned/11_pf_thin5.csv"
+[1] "11: occurrence partition"
+[1] "4: calibration"
+[1] "4: block_layer"
+[1] "5: calibration"
+[1] "5: block_layer"
+[1] "11: calibration"
+[1] "11: block_layer"
+
+lat.long.thin.count
+2082 2083 2084 
+   1    7   12 
+[1] "Maximum number of records after thinning: 2084"
+[1] "Number of data.frames with max records: 12"
+[1] "Writing new *.csv files"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/6/thinned/6_pf_thin1.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/6/thinned/6_pf_thin2.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/6/thinned/6_pf_thin3.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/6/thinned/6_pf_thin4.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/6/thinned/6_pf_thin5.csv"
+[1] "6: occurrence partition"
+
+lat.long.thin.count
+2964 2965 2966 2967 
+   1    2    9    8 
+[1] "Maximum number of records after thinning: 2967"
+[1] "Number of data.frames with max records: 8"
+[1] "Writing new *.csv files"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/7/thinned/7_pf_thin1.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/7/thinned/7_pf_thin2.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/7/thinned/7_pf_thin3.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/7/thinned/7_pf_thin4.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/7/thinned/7_pf_thin5.csv"
+[1] "7: occurrence partition"
+
+lat.long.thin.count
+3408 3409 3410 3411 
+   7    8    3    2 
+[1] "Maximum number of records after thinning: 3411"
+[1] "Number of data.frames with max records: 2"
+[1] "Writing new *.csv files"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/10/thinned/10_pf_thin1.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/10/thinned/10_pf_thin2.csv"
+[1] "10: occurrence partition"
+[1] "6: calibration"
+[1] "6: block_layer"
+
+lat.long.thin.count
+4118 4119 4120 4121 4122 4123 
+   1    1    2    3    6    7 
+[1] "Maximum number of records after thinning: 4123"
+[1] "Number of data.frames with max records: 7"
+[1] "Writing new *.csv files"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/9/thinned/9_pf_thin1.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/9/thinned/9_pf_thin2.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/9/thinned/9_pf_thin3.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/9/thinned/9_pf_thin4.csv"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/9/thinned/9_pf_thin5.csv"
+[1] "9: occurrence partition"
+
+lat.long.thin.count
+3907 3908 3909 3910 3911 3912 3913 
+   3    2    5    5    3    1    1 
+[1] "Maximum number of records after thinning: 3913"
+[1] "Number of data.frames with max records: 1"
+[1] "Writing new *.csv files"
+[1] "Writing file: Data/1_DataProcessing/pseudoabs/geo_env/8/thinned/8_pf_thin1.csv"
+[1] "8: occurrence partition"
+[1] "10: calibration"
+[1] "10: block_layer"
+[1] "7: calibration"
+[1] "7: block_layer"
+[1] "8: calibration"
+[1] "8: block_layer"
+[1] "9: calibration"
+[1] "9: block_layer"

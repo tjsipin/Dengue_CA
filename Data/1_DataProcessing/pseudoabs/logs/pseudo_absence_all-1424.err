@@ -1,0 +1,38 @@
+terra 1.7.71
+Loading required package: sp
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:raster’:
+
+    intersect, select, union
+
+The following objects are masked from ‘package:terra’:
+
+    intersect, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: iterators
+Loading required package: parallel
+2 has failed. See month directory for more details.
+1 has failed. See month directory for more details.
+3 has failed. See month directory for more details.
+4 has failed. See month directory for more details.
+12 has failed. See month directory for more details.
+5 has failed. See month directory for more details.
+11 has failed. See month directory for more details.
+6 has failed. See month directory for more details.
+7 has failed. See month directory for more details.
+10 has failed. See month directory for more details.
+8 has failed. See month directory for more details.
+9 has failed. See month directory for more details.
+Error in { : task 1 failed - "undefined columns selected"
+Calls: %dopar% -> <Anonymous>
+Execution halted

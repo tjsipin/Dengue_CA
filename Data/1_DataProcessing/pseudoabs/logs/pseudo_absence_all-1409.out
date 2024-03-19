@@ -1,0 +1,27 @@
+/home/tjsipin
+forge.eri.ucsb.edu
+Fri Mar  8 06:44:45 PM PST 2024
+[1] "1: calibration"
+[1][1] "3: calibration"
+[1] "2: calibration"
+ "4: calibration"
+[1][1] "6: calibration"
+ "5: calibration"
+[1][1][1] "1: occurrence partition" "7: calibration"
+
+ "3: occurrence partition"
+[1][1] "4: occurrence partition"
+[1] "2: occurrence partition"
+ "8: calibration"
+[1] "5: occurrence partition"
+[1] "6: occurrence partition"
+[1] "7: occurrence partition"
+[1] "8: occurrence partition"
+[1] "11: calibration"
+[1] "10: calibration"
+[1] "11: occurrence partition"
+[1] "10: occurrence partition"
+[1] "1: block_layer"
+[1] "4: block_layer"
+[1] "5: block_layer"
+[1] "11: block_layer"

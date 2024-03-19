@@ -1,0 +1,28 @@
+terra 1.7.71
+Loading required package: sp
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:raster’:
+
+    intersect, select, union
+
+The following objects are masked from ‘package:terra’:
+
+    intersect, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: iterators
+Loading required package: parallel
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+invalid first argumentError in tryCatch({ : no loop for break/next, jumping to top level
+Calls: psuedoabsenceFunc_v2 -> tryCatch
+Execution halted

@@ -1,0 +1,67 @@
+terra 1.7.71
+Loading required package: sp
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:raster’:
+
+    intersect, select, union
+
+The following objects are masked from ‘package:terra’:
+
+    intersect, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: iterators
+Loading required package: parallel
+cannot open compressed file 'Data/1_DataProcessing/pseudoabs/2/2_occ_part.rds', probable reason 'No such file or directory'cannot open compressed file 'Data/1_DataProcessing/pseudoabs/3/3_occ_part.rds', probable reason 'No such file or directory'cannot open compressed file 'Data/1_DataProcessing/pseudoabs/1/1_block_layer.rds', probable reason 'No such file or directory'Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+4 has finished.
+cannot open compressed file 'Data/1_DataProcessing/pseudoabs/12/12_occ_part.rds', probable reason 'No such file or directory'Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+5 has finished.
+Extents do not match, raster layers used were croped to minimum extent
+11 has finished.
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+6 has finished.
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+7 has finished.
+Extents do not match, raster layers used were croped to minimum extent
+10 has finished.
+Extents do not match, raster layers used were croped to minimum extent
+8 has finished.
+9 has finished.
+Error in { : 
+  task 1 failed - "no loop for break/next, jumping to top level"
+Calls: %dopar% -> <Anonymous>
+Execution halted

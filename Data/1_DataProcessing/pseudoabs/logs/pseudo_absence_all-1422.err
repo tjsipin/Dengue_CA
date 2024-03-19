@@ -1,0 +1,179 @@
+terra 1.7.71
+Loading required package: sp
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:raster’:
+
+    intersect, select, union
+
+The following objects are masked from ‘package:terra’:
+
+    intersect, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: iterators
+Loading required package: parallel
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+2 has failed. See month directory for more details.
+12 has failed. See month directory for more details.
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+Number of background-points exceeds number of cell will be returned 0 background-points
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Number of background-points exceeds number of cell will be returned 0 background-points
+Extents do not match, raster layers used were croped to minimum extent
+Number of background-points exceeds number of cell will be returned 0 background-points
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+Extents do not match, raster layers used were croped to minimum extent
+Number of background-points exceeds number of cell will be returned 0 background-points
+1 has finished.
+1: -3.53657857577006
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+3 has finished.
+3: -6.61052371660868
+The following grid cell sizes will be tested:
+810 | 38023.45 | 75236.9 | 112450.34 | 149663.79 | 186877.24 | 224090.69 | 261304.14 | 298517.59 | 335731.03 | 372944.48 | 410157.93 | 447371.38 | 484584.83 | 521798.28 | 559011.72 | 596225.17 | 633438.62 | 670652.07 | 707865.52 | 745078.97 | 782292.41 | 819505.86 | 856719.31 | 893932.76 | 931146.21 | 968359.66 | 1005573.1 | 1042786.55 | 1080000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+Number of background-points exceeds number of cell will be returned 0 background-points
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+4 has finished.
+4: -10.5520930012067
+Extents do not match, raster layers used were croped to minimum extent
+Number of background-points exceeds number of cell will be returned 0 background-points
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+5 has finished.
+5: -18.4113675316175
+Extents do not match, raster layers used were croped to minimum extent
+11 has finished.
+11: -22.6466125528018
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Number of background-points exceeds number of cell will be returned 0 background-points
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+6 has finished.
+6: -39.6512486418088
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+7 has finished.
+7: -56.4565520683924
+10 has finished.
+10: -57.1682032148043
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+8 has finished.
+8: -1.36670923166805
+9 has finished.
+9: -1.36804454578294
+Error in { : task 2 failed - "missing value where TRUE/FALSE needed"
+Calls: %dopar% -> <Anonymous>
+Execution halted

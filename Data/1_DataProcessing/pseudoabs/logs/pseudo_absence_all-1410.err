@@ -1,0 +1,122 @@
+terra 1.7.71
+Loading required package: sp
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:raster’:
+
+    intersect, select, union
+
+The following objects are masked from ‘package:terra’:
+
+    intersect, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: iterators
+Loading required package: parallel
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+1 has failed. See month directory for more details.
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+3 has failed. See month directory for more details.
+2 has failed. See month directory for more details.
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+Searching for the optimal grid size...
+
+4 has failed. See month directory for more details.
+The following grid cell sizes will be tested:
+810 | 2644.14 | 4478.28 | 6312.41 | 8146.55 | 9980.69 | 11814.83 | 13648.97 | 15483.1 | 17317.24 | 19151.38 | 20985.52 | 22819.66 | 24653.79 | 26487.93 | 28322.07 | 30156.21 | 31990.34 | 33824.48 | 35658.62 | 37492.76 | 39326.9 | 41161.03 | 42995.17 | 44829.31 | 46663.45 | 48497.59 | 50331.72 | 52165.86 | 54000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+12 has failed. See month directory for more details.
+5 has failed. See month directory for more details.
+11 has failed. See month directory for more details.
+6 has failed. See month directory for more details.
+7 has failed. See month directory for more details.
+10 has failed. See month directory for more details.
+8 has failed. See month directory for more details.
+9 has failed. See month directory for more details.
+Error in { : task 1 failed - "missing value where TRUE/FALSE needed"
+Calls: %dopar% -> <Anonymous>
+Execution halted

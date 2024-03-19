@@ -1,0 +1,211 @@
+/home/tjsipin/Dengue_CA
+forge.eri.ucsb.edu
+Mon Mar 18 02:51:38 PM PDT 2024
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:18 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:19 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:19 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:19 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:19 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:19 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:19 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:19 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:19 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:19 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:19 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 14:52:19 2024
+lat.long.thin.count
+39 
+10 
+[1] "Maximum number of records after thinning: 39"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+[1] "1: occurrence partition"
+
+lat.long.thin.count
+237 
+ 10 
+[1] "Maximum number of records after thinning: 237"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+
+lat.long.thin.count
+48 
+10 
+[1] "Maximum number of records after thinning: 48"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+[1] "12: occurrence partition"
+
+lat.long.thin.count
+50 
+10 
+[1] "Maximum number of records after thinning: 50"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+
+lat.long.thin.count
+394 
+ 10 
+[1] "Maximum number of records after thinning: 394"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+[1] "3: occurrence partition"
+[1] "2: occurrence partition"
+[1] "4: occurrence partition"
+
+lat.long.thin.count
+1045 
+  10 
+[1] "Maximum number of records after thinning: 1045"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+[1] "5: occurrence partition"
+
+lat.long.thin.count
+1092 
+  10 
+[1] "Maximum number of records after thinning: 1092"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+[1] "11: occurrence partition"
+[1] "4: calibration"
+[1] "4: block_layer"
+[1] "5: calibration"
+[1] "5: block_layer"
+[1] "11: calibration"
+[1] "11: block_layer"
+
+lat.long.thin.count
+2082 2083 2084 
+   1    5    4 
+[1] "Maximum number of records after thinning: 2084"
+[1] "Number of data.frames with max records: 4"
+[1] "No files written for this run."
+[1] "6: occurrence partition"
+[1] "6: calibration"
+[1] "6: block_layer"
+
+lat.long.thin.count
+2966 2967 
+   6    4 
+[1] "Maximum number of records after thinning: 2967"
+[1] "Number of data.frames with max records: 4"
+[1] "No files written for this run."
+[1] "7: occurrence partition"
+
+lat.long.thin.count
+3407 3408 3409 3410 
+   1    3    2    4 
+[1] "Maximum number of records after thinning: 3410"
+[1] "Number of data.frames with max records: 4"
+[1] "No files written for this run."
+[1] "10: occurrence partition"
+[1] "7: calibration"
+[1] "7: block_layer"
+[1] "10: calibration"
+[1] "10: block_layer"
+
+lat.long.thin.count
+3906 3907 3908 3909 3910 3913 
+   2    1    3    2    1    1 
+[1] "Maximum number of records after thinning: 3913"
+[1] "Number of data.frames with max records: 1"
+[1] "No files written for this run."
+[1] "8: occurrence partition"
+
+lat.long.thin.count
+4119 4121 4122 4123 
+   1    4    2    3 
+[1] "Maximum number of records after thinning: 4123"
+[1] "Number of data.frames with max records: 3"
+[1] "No files written for this run."
+[1] "9: occurrence partition"
+[1] "8: calibration"
+[1] "8: block_layer"
+[1] "9: calibration"
+[1] "9: block_layer"
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 15:05:44 2024
+lat.long.thin.count
+820 
+ 10 
+[1] "Maximum number of records after thinning: 820"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 15:08:52 2024
+lat.long.thin.count
+2235 
+  10 
+[1] "Maximum number of records after thinning: 2235"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 15:09:18 2024
+lat.long.thin.count
+2348 
+  10 
+[1] "Maximum number of records after thinning: 2348"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 15:15:25 2024
+lat.long.thin.count
+4735 
+  10 
+[1] "Maximum number of records after thinning: 4735"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 15:20:20 2024
+lat.long.thin.count
+6798 
+  10 
+[1] "Maximum number of records after thinning: 6798"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 15:22:53 2024
+lat.long.thin.count
+7720 7721 7722 
+   3    5    2 
+[1] "Maximum number of records after thinning: 7722"
+[1] "Number of data.frames with max records: 2"
+[1] "No files written for this run."
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 15:26:43 2024
+lat.long.thin.count
+9506 9507 9508 9509 
+   1    1    3    5 
+[1] "Maximum number of records after thinning: 9509"
+[1] "Number of data.frames with max records: 5"
+[1] "No files written for this run."
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Mon Mar 18 15:27:31 2024
+lat.long.thin.count
+9078 9079 9080 9081 9082 
+   2    3    1    2    2 
+[1] "Maximum number of records after thinning: 9082"
+[1] "Number of data.frames with max records: 2"
+[1] "No files written for this run."

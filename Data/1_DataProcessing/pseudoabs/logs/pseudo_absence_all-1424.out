@@ -1,0 +1,123 @@
+/home/tjsipin
+forge.eri.ucsb.edu
+Wed Mar 13 01:02:58 PM PDT 2024
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Wed Mar 13 13:03:26 2024
+
+lat.long.thin.count
+50 
+20 
+lat.long.thin.count
+39 
+20 
+[1] "Maximum number of records after thinning: 39"
+[1] "Maximum number of records after thinning: 50"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+[1] "Number of data.frames with max records: 20"
+[1] "2: calibration"
+[1] "No files written for this run."
+[1] "1: calibration"
+
+lat.long.thin.count
+48 
+20 
+[1] "Maximum number of records after thinning: 48"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+[1] "3: calibration"
+
+lat.long.thin.count
+394 
+ 20 
+[1] "Maximum number of records after thinning: 394"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+[1] "4: calibration"
+
+lat.long.thin.count
+237 
+ 20 
+[1] "Maximum number of records after thinning: 237"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+[1] "12: calibration"
+
+lat.long.thin.count
+1045 
+  20 
+[1] "Maximum number of records after thinning: 1045"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+[1] "5: calibration"
+
+lat.long.thin.count
+1092 
+  20 
+[1] "Maximum number of records after thinning: 1092"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+[1] "11: calibration"
+
+lat.long.thin.count
+2082 2083 2084 
+   1    9   10 
+[1] "Maximum number of records after thinning: 2084"
+[1] "Number of data.frames with max records: 10"
+[1] "No files written for this run."
+[1] "6: calibration"
+
+lat.long.thin.count
+2965 2966 2967 
+   6    7    7 
+[1] "Maximum number of records after thinning: 2967"
+[1] "Number of data.frames with max records: 7"
+[1] "No files written for this run."
+[1] "7: calibration"
+
+lat.long.thin.count
+3407 3408 3409 3410 3411 
+   2    4    9    4    1 
+[1] "Maximum number of records after thinning: 3411"
+[1] "Number of data.frames with max records: 1"
+[1] "No files written for this run."
+[1] "10: calibration"
+
+lat.long.thin.count
+3906 3907 3908 3909 3910 3911 3912 3913 
+   3    3    3    3    3    2    2    1 
+[1] "Maximum number of records after thinning: 3913"
+[1] "Number of data.frames with max records: 1"
+[1] "No files written for this run."
+[1] "8: calibration"
+
+lat.long.thin.count
+4119 4120 4121 4122 4123 4124 
+   2    5    5    6    1    1 
+[1] "Maximum number of records after thinning: 4124"
+[1] "Number of data.frames with max records: 1"
+[1] "No files written for this run."
+[1] "9: calibration"

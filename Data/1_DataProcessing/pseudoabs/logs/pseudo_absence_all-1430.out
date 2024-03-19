@@ -1,0 +1,49 @@
+/home/tjsipin/Dengue_CA
+forge.eri.ucsb.edu
+Fri Mar 15 10:19:09 PM PDT 2024
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Fri Mar 15 22:19:35 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Fri Mar 15 22:19:35 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Fri Mar 15 22:19:35 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Fri Mar 15 22:19:35 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Fri Mar 15 22:19:35 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Fri Mar 15 22:19:35 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Fri Mar 15 22:19:35 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Fri Mar 15 22:19:35 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Fri Mar 15 22:19:35 2024
+lat.long.thin.count
+64 
+20 
+[1] "Maximum number of records after thinning: 64"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+
+lat.long.thin.count
+444 
+ 20 
+[1] "Maximum number of records after thinning: 444"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+
+lat.long.thin.count
+1229 
+  20 
+[1] "Maximum number of records after thinning: 1229"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+
+lat.long.thin.count
+1352 
+  20 
+[1] "Maximum number of records after thinning: 1352"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."

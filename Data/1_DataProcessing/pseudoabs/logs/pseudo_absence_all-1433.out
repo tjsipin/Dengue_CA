@@ -1,0 +1,93 @@
+/home/tjsipin/Dengue_CA
+forge.eri.ucsb.edu
+Sun Mar 17 03:04:39 AM PDT 2024
+[1] 1
+[1][1][1] 5
+ 2
+ 7
+[1][1][1] 4 3
+
+ 6
+[1] 8
+[1] 9
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Sun Mar 17 03:05:04 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Sun Mar 17 03:05:04 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Sun Mar 17 03:05:04 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Sun Mar 17 03:05:04 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Sun Mar 17 03:05:04 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Sun Mar 17 03:05:04 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Sun Mar 17 03:05:04 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Sun Mar 17 03:05:04 2024********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Sun Mar 17 03:05:05 2024
+lat.long.thin.count
+64 
+20 
+[1] "Maximum number of records after thinning: 64"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+
+lat.long.thin.count
+444 
+ 20 
+[1] "Maximum number of records after thinning: 444"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+
+lat.long.thin.count
+1229 
+  20 
+[1] "Maximum number of records after thinning: 1229"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+
+lat.long.thin.count
+1352 
+  20 
+[1] "Maximum number of records after thinning: 1352"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+
+lat.long.thin.count
+2777 
+  20 
+[1] "Maximum number of records after thinning: 2777"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+
+lat.long.thin.count
+4034 
+  20 
+[1] "Maximum number of records after thinning: 4034"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+
+lat.long.thin.count
+4481 
+  20 
+[1] "Maximum number of records after thinning: 4481"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+
+lat.long.thin.count
+5472 
+  20 
+[1] "Maximum number of records after thinning: 5472"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."
+
+lat.long.thin.count
+5685 
+  20 
+[1] "Maximum number of records after thinning: 5685"
+[1] "Number of data.frames with max records: 20"
+[1] "No files written for this run."

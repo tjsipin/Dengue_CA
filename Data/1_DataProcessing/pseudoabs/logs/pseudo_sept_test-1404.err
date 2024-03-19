@@ -1,0 +1,25 @@
+terra 1.7.71
+Loading required package: sp
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:raster’:
+
+    intersect, select, union
+
+The following objects are masked from ‘package:terra’:
+
+    intersect, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent
+Extents do not match, raster layers used were croped to minimum extent

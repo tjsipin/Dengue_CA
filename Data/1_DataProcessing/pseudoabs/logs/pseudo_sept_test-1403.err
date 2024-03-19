@@ -1,0 +1,34 @@
+terra 1.7.71
+Loading required package: sp
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:raster’:
+
+    intersect, select, union
+
+The following objects are masked from ‘package:terra’:
+
+    intersect, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Extracting values from raster ... 
+Number of unfiltered records: 19475
+Threshold for Moran: 0.1
+Distance threshold(km): 37.316
+Number of filtered records: 46
+The following grid cell sizes will be tested:
+810 | 18540 | 36270 | 54000
+
+Creating basic raster mask...
+
+Searching for the optimal grid size...
+
+Warning: Unknown or uninitialised column: `.part`.

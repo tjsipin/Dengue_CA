@@ -1,0 +1,36 @@
+terra 1.7.71
+Loading required package: sp
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:raster’:
+
+    intersect, select, union
+
+The following objects are masked from ‘package:terra’:
+
+    intersect, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: iterators
+Loading required package: parallel
+Linking to GEOS 3.12.1, GDAL 3.7.3, PROJ 9.2.1; sf_use_s2() is TRUE
+Joining with `by = join_by(x, y)`
+Joining with `by = join_by(x, y)`
+Joining with `by = join_by(x, y)`
+Joining with `by = join_by(x, y)`
+Joining with `by = join_by(x, y)`
+Joining with `by = join_by(x, y)`
+Joining with `by = join_by(x, y)`
+Joining with `by = join_by(x, y)`
+Joining with `by = join_by(x, y)`
+Error in end.default() : argument "x" is missing, with no default
+Calls: end -> end.default -> hasTsp
+Execution halted
