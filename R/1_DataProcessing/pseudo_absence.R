@@ -477,8 +477,8 @@ thinned_p_psa_data = map2(
   bind_rows() 
   
 
-# readr::write_csv(thinned_p_psa_data, "Data/1_DataProcessing/pseudoabs/geo_env/aedes_thinned_presence_psa.csv")
-# thinned_split_p_psa = read_csv("Data/1_DataProcessing/pseudoabs/geo_env/aedes_thinned_presence_psa.csv")
+readr::write_csv(thinned_p_psa_data, "Data/1_DataProcessing/pseudoabs/geo_env/aedes_thinned_presence_psa.csv")
+thinned_p_psa_data = read_csv("Data/1_DataProcessing/pseudoabs/geo_env/aedes_thinned_presence_psa.csv")
 
 # convert to SpatVector for visualization
 aedes_p_psa_vec = terra::vect(
