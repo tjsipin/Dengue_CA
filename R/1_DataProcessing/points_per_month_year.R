@@ -86,6 +86,16 @@ for(i in 1:nrow(presence_data_n)){
     rbind(this_pabs_data)
 }
 
-p_psa_month_year = rbind(thinned_presence_data_dates, pabsence_data_dates)
+p_psa_month_year = rbind(thinned_presence_data_dates, pabsence_data_dates) 
+
+p_psa_month_year_sf = p_psa_month_year %>% 
+  SpatialPointsDataFrame(
+    coords = data.frame(.$Longitude, .$Latitude),
+    data = .,
+    proj4string = CRS("+proj=longlat +datum=WGS84")
+  ) %>% 
+  st_as_sf()
 
 write_csv(p_psa_month_year, "Data/1_DataProcessing/pseudoabs/geo_env/thinned_p_psa_month_year.csv")
+
+write_sf(p_psa_month_year_sf, "Data/1_DataProcessing/pseudoabs/geo_env/thinned_p_psa_month_year_sf.shp")
